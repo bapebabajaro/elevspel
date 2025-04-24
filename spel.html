@@ -1,0 +1,2039 @@
+<div class="step">
+                <h3>Fråga 3: Experimentell design och kontrollvariabler</h3>
+                <p>Ett rigoröst vetenskapligt bevis kräver välutformade experiment med lämpliga kontroller för att utesluta alternativa förklaringar.</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <h4>Experimentell utmaning:</h4>
+                    <p>Du vill designa ett experiment för att simultant bevisa både fotosyntes och cellandning hos gröna växter. Du har följande utrustning och material till ditt förfogande:</p>
+                    <ul>
+                        <li>Helt identiska levande växter (t.ex. pelargoner)</li>
+                        <li>Translucenta behållare som kan förslutas gastätt</li>
+                        <li>Möjlighet att kontrollera ljusförhållanden (ljus/mörker)</li>
+                        <li>CO<sub>2</sub>-mätare (kan mäta CO<sub>2</sub>-koncentration i luften)</li>
+                        <li>O<sub>2</sub>-mätare (kan mäta O<sub>2</sub>-koncentration i luften)</li>
+                        <li>Kalkvatten (Ca(OH)<sub>2</sub>-lösning)</li>
+                        <li>KOH-lösning (absorberar CO<sub>2</sub>)</li>
+                        <li>Värmemätare (termometer)</li>
+                        <li>Vattenbad för temperaturreglering</li>
+                        <li>Glödande stickor</li>
+                        <li>Jodlösning</li>
+                        <li>Tillgång till dödade växter (uppvärmda till 100°C för att inaktivera enzymer)</li>
+                    </ul>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Del A: Identifiera variabler</strong></p>
+                    <p>För att designa ett stringent experiment, måste du först identifiera de essentiella variablerna. Klassificera följande faktorer som oberoende variabel, beroende variabel, eller kontrollvariabel i relation till att bevisa fotosyntes och cellandning:</p>
+                    
+                    <table style="width: 100%; border-collapse: collapse; margin: 15px 0;">
+                        <tr style="background-color: #e3f2fd;">
+                            <th style="border: 1px solid #b3e5fc; padding: 8px; text-align: left;">Faktor</th>
+                            <th style="border: 1px solid #b3e5fc; padding: 8px; text-align: left;">Variabeltyp för fotosyntes</th>
+                            <th style="border: 1px solid #b3e5fc; padding: 8px; text-align: left;">Variabeltyp för cellandning</th>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">Ljustillgång</td>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">
+                                <select id="light-photosynthesis" style="width: 100%; padding: 5px;">
+                                    <option value="">Välj variabeltyp</option>
+                                    <option value="independent">Oberoende variabel</option>
+                                    <option value="dependent">Beroende variabel</option>
+                                    <option value="control">Kontrollvariabel</option>
+                                </select>
+                            </td>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">
+                                <select id="light-respiration" style="width: 100%; padding: 5px;">
+                                    <option value="">Välj variabeltyp</option>
+                                    <option value="independent">Oberoende variabel</option>
+                                    <option value="dependent">Beroende variabel</option>
+                                    <option value="control">Kontrollvariabel</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">CO<sub>2</sub>-koncentration</td>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">
+                                <select id="co2-photosynthesis" style="width: 100%; padding: 5px;">
+                                    <option value="">Välj variabeltyp</option>
+                                    <option value="independent">Oberoende variabel</option>
+                                    <option value="dependent">Beroende variabel</option>
+                                    <option value="control">Kontrollvariabel</option>
+                                </select>
+                            </td>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">
+                                <select id="co2-respiration" style="width: 100%; padding: 5px;">
+                                    <option value="">Välj variabeltyp</option>
+                                    <option value="independent">Oberoende variabel</option>
+                                    <option value="dependent">Beroende variabel</option>
+                                    <option value="control">Kontrollvariabel</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">O<sub>2</sub>-koncentration</td>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">
+                                <select id="o2-photosynthesis" style="width: 100%; padding: 5px;">
+                                    <option value="">Välj variabeltyp</option>
+                                    <option value="independent">Oberoende variabel</option>
+                                    <option value="dependent">Beroende variabel</option>
+                                    <option value="control">Kontrollvariabel</option>
+                                </select>
+                            </td>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">
+                                <select id="o2-respiration" style="width: 100%; padding: 5px;">
+                                    <option value="">Välj variabeltyp</option>
+                                    <option value="independent">Oberoende variabel</option>
+                                    <option value="dependent">Beroende variabel</option>
+                                    <option value="control">Kontrollvariabel</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">Temperatur</td>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">
+                                <select id="temperature-photosynthesis" style="width: 100%; padding: 5px;">
+                                    <option value="">Välj variabeltyp</option>
+                                    <option value="independent">Oberoende variabel</option>
+                                    <option value="dependent">Beroende variabel</option>
+                                    <option value="control">Kontrollvariabel</option>
+                                </select>
+                            </td>
+                            <td style="border: 1px solid #b3e5fc; padding: 8px;">
+                                <select id="temperature-respiration" style="width: 100%; padding: 5px;">
+                                    <option value="">Välj variabeltyp</option>
+                                    <option value="independent">Oberoende variabel</option>
+                                    <option value="dependent">Beroende variabel</option>
+                                    <option value<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bevisjakten: En interaktiv simulering om fotosyntes och cellandning</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .info-box {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+            border-left: 5px solid #3498db;
+        }
+        
+        .experiment {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            background-color: #f9f9f9;
+            display: none;
+        }
+        
+        .experiment.active {
+            display: block;
+        }
+        
+        .experiment-nav {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #2980b9;
+        }
+        
+        button:disabled {
+            background-color: #bdc3c7;
+            cursor: not-allowed;
+        }
+        
+        .btn-option {
+            background-color: #ecf0f1;
+            color: #333;
+            border: 1px solid #bdc3c7;
+            margin: 5px;
+            text-align: left;
+            padding: 10px;
+            transition: all 0.3s;
+        }
+        
+        .btn-option:hover {
+            background-color: #d5dbdb;
+        }
+        
+        .btn-option.selected {
+            background-color: #2ecc71;
+            color: white;
+            border-color: #27ae60;
+        }
+        
+        .btn-option.incorrect {
+            background-color: #e74c3c;
+            color: white;
+            border-color: #c0392b;
+        }
+        
+        .lab-setup {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        .lab-item {
+            border: 2px solid #bdc3c7;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 5px;
+            width: 150px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .lab-item:hover {
+            border-color: #3498db;
+            background-color: #ebf5fb;
+        }
+        
+        .lab-item.selected {
+            border-color: #2ecc71;
+            background-color: #eafaf1;
+        }
+        
+        .lab-equipment {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .equipment-item {
+            padding: 5px 10px;
+            background-color: #f1f1f1;
+            border-radius: 15px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+        }
+        
+        .result-feedback {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        .result-feedback.correct {
+            background-color: #d4edda;
+            color: #155724;
+            border-left: 5px solid #28a745;
+        }
+        
+        .result-feedback.incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+            border-left: 5px solid #dc3545;
+        }
+        
+        .step {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+        }
+        
+        .experiment-result {
+            padding: 15px;
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            margin: 15px 0;
+            display: none;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .progress-container {
+            width: 100%;
+            background-color: #e9ecef;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .progress-bar {
+            height: 20px;
+            border-radius: 10px;
+            background-color: #3498db;
+            width: 0%;
+            transition: width 0.5s;
+            text-align: center;
+            line-height: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .concept-map {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #f9f9f9;
+        }
+        
+        .reaction-equation {
+            text-align: center;
+            padding: 10px;
+            margin: 15px 0;
+            font-weight: bold;
+            font-size: 1.2em;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+        }
+        
+        .interactive-area {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f9f9f9;
+        }
+        
+        .certificate {
+            border: 5px solid #3498db;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+            background-color: #f8f9fa;
+            display: none;
+        }
+        
+        .drag-item {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #e1f0fa;
+            border: 1px solid #3498db;
+            border-radius: 5px;
+            margin: 5px;
+            cursor: move;
+        }
+        
+        .drop-zone {
+            min-height: 50px;
+            border: 2px dashed #3498db;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        
+        .drop-zone.hover {
+            background-color: #ebf5fb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bevisjakten: En interaktiv simulering om fotosyntes och cellandning</h1>
+        
+        <div class="info-box">
+            <h3>Välkommen till experimentlabbet!</h3>
+            <p>I denna simulering kommer du att lära dig hur man <strong>vetenskapligt bevisar</strong> att fotosyntesen och cellandningen sker. Du kommer att få designa experiment, välja rätt utrustning, och tolka resultat för att bevisa dessa livsviktiga processer.</p>
+            <p><strong>Kom ihåg:</strong> Ett vetenskapligt bevis kräver observerbara förändringar och specifika tester för de ämnen vi letar efter.</p>
+        </div>
+
+        <div class="concept-map">
+            <h3>Översikt: Fotosyntes och cellandning</h3>
+            <div class="reaction-equation">
+                <p><strong>Fotosyntes:</strong> 6 CO<sub>2</sub> + 6 H<sub>2</sub>O + ljusenergi → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6 O<sub>2</sub></p>
+                <p><strong>Cellandning:</strong> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6 O<sub>2</sub> → 6 CO<sub>2</sub> + 6 H<sub>2</sub>O + energi (ATP)</p>
+            </div>
+            <p>För att <strong>bevisa</strong> att dessa processer sker behöver vi:</p>
+            <ol>
+                <li>Identifiera vilka ämnen vi ska leta efter (O<sub>2</sub>, CO<sub>2</sub>, socker)</li>
+                <li>Välja specifika tester som kan påvisa dessa ämnens närvaro</li>
+                <li>Designa experiment där vi kontrollerar variablerna</li>
+                <li>Tolka resultaten och dra slutsatser baserade på bevisen</li>
+            </ol>
+        </div>
+
+        <div class="progress-container">
+            <div id="progressBar" class="progress-bar">0%</div>
+        </div>
+
+        <!-- Experiment 1: Fotosyntesen producerar syre -->
+        <div id="experiment1" class="experiment active">
+            <h2>Experiment 1: Bevisa att fotosyntesen producerar syre</h2>
+            
+            <div class="info-box">
+                <p>Fotosyntesen producerar syre (O<sub>2</sub>) som en biprodukt. Men hur kan vi <strong>bevisa</strong> att det faktiskt bildas syre?</p>
+                <p>Du har tillgång till vattenpest (Elodea) som är en vattenväxt som är bra för att studera fotosyntesen då du kan se bubblor bildas när den placeras i vatten och ljus.</p>
+            </div>
+
+            <h3>Fråga 1: Vilken av följande påståenden representerar det mest stringenta vetenskapliga beviset för att fotosyntesen producerar syre?</h3>
+            <div class="options-container">
+                <button class="btn-option" data-value="bubbles">Observationen att det bildas bubblor från vattenpest i ljus är ett tillräckligt bevis för att växten producerar syre</button>
+                <button class="btn-option" data-value="volume">Mätning av den ökade gasvolymen över tid är ett tillräckligt bevis för syreproduktion</button>
+                <button class="btn-option" data-value="specific-test">En glödande sticka som flammar upp i den uppsamlade gasen är ett specifikt test som identifierar gasen som syre</button>
+                <button class="btn-option" data-value="theory">Eftersom fotosyntesens ekvation visar att syre produceras behöver vi inte experimentellt bevisa det</button>
+            </div>
+            <div id="feedback1" class="result-feedback"></div>
+
+            <div id="section1-2" class="hidden">
+                <h3>Fråga 2: Kritisk analys av försöksuppställning</h3>
+                <p>Din hypotes är att vattenpest producerar syre genom fotosyntes. För att skapa en beviskraftig försöksuppställning behöver du kritiskt analysera vilka komponenter som är essentiella och varför. Välj utrustning och motivera dess funktion:</p>
+                
+                <div class="lab-equipment">
+                    <div class="lab-item" data-value="elodea">Vattenpest (Elodea)</div>
+                    <div class="lab-item" data-value="testtubes">Provrör</div>
+                    <div class="lab-item" data-value="light">Ljuskälla</div>
+                    <div class="lab-item" data-value="dark">Mörkläggning</div>
+                    <div class="lab-item" data-value="matches">Tändstickor</div>
+                    <div class="lab-item" data-value="nahco3">Natriumvätekarbonat (NaHCO<sub>3</sub>)</div>
+                    <div class="lab-item" data-value="iodine">Jodlösning</div>
+                    <div class="lab-item" data-value="lime">Kalkvatten</div>
+                    <div class="lab-item" data-value="funnel">Tratt</div>
+                    <div class="lab-item" data-value="ph-indicator">pH-indikator</div>
+                    <div class="lab-item" data-value="thermometer">Termometer</div>
+                </div>
+                
+                <div class="interactive-area" style="margin-top: 20px;">
+                    <p><strong>Motivera dina val:</strong> För varje vald komponent, förklara dess specifika funktion i att skapa ett vetenskapligt bevis (inte bara observation) att fotosyntes producerar syre.</p>
+                    <textarea id="equipment-reasoning" rows="6" style="width: 100%; padding: 10px;" placeholder="Förklara t.ex. varför du skulle behöva både ljus och mörkläggning för att skapa ett fullständigt bevis, eller varför natriumvätekarbonat är viktigt för försöket..."></textarea>
+                </div>
+                
+                <div id="feedback2" class="result-feedback"></div>
+            </div>
+
+            <div id="section1-3" class="hidden">
+                <h3>Fråga 3: Designa ett kontrollerat experiment med validering</h3>
+                <p>För att skapa ett verkligt vetenskapligt bevis behöver du designa ett experiment med lämpliga kontroller och valideringsmetoder. Ordna följande komponenter för att skapa ett fullständigt vetenskapligt bevis:</p>
+                
+                <div class="interactive-area">
+                    <div id="steps-container">
+                        <div class="drag-item" draggable="true" data-step="1">Skapa två identiska uppställningar med vattenpest i provrör med vatten</div>
+                        <div class="drag-item" draggable="true" data-step="2">Tillsätt natriumvätekarbonat (NaHCO<sub>3</sub>) som kolkälla till båda uppsättningarna</div>
+                        <div class="drag-item" draggable="true" data-step="3">Placera en tratt över varje växt och ett omvänt provrör över varje tratt</div>
+                        <div class="drag-item" draggable="true" data-step="4">Placera en uppsättning i ljus och den andra i mörker (kontroll)</div>
+                        <div class="drag-item" draggable="true" data-step="5">Låt uppställningarna stå så att gas samlas i provrören</div>
+                        <div class="drag-item" draggable="true" data-step="6">Jämför gasvolymen i båda uppsättningarna</div>
+                        <div class="drag-item" draggable="true" data-step="7">Testa gasen från ljusuppställningen med en glödande sticka</div>
+                        <div class="drag-item" draggable="true" data-step="8">Testa gasen från mörkerkontroll med en glödande sticka</div>
+                        <div class="drag-item" draggable="true" data-step="9">Testa gasen med kalkvatten för att utesluta att det är CO<sub>2</sub></div>
+                        <div class="drag-item" draggable="true" data-step="10">Upprepa experimentet flera gånger för att säkerställa reproducerbarhet</div>
+                    </div>
+                    <p>Dra och släpp stegen i rätt ordning för ett fullständigt vetenskapligt bevis:</p>
+                    <div id="experiment-dropzone" class="drop-zone"></div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Förklara:</strong> Varför är det avgörande att inkludera en kontroll i mörker för att bevisa att syret kommer från fotosyntesen? Vad skulle hända om du bara gjorde experimentet i ljus?</p>
+                    <textarea id="control-reasoning" rows="4" style="width: 100%; padding: 10px;" placeholder="Förklara betydelsen av kontrollexperimentet..."></textarea>
+                </div>
+                
+                <div id="feedback3" class="result-feedback"></div>
+            </div>
+
+            <div id="section1-4" class="hidden">
+                <h3>Fråga 4: Analys av metodologisk validitet</h3>
+                <p>För ett vetenskapligt bevis måste den valda testmetoden vara både <i>specifik</i> och <i>känslig</i> för det ämne vi vill identifiera. Analysera följande testmetoder för uppsamlad gas från fotosyntes:</p>
+                
+                <div class="options-container">
+                    <button class="btn-option" data-value="glowing">Test med glödande sticka (flammar upp i O<sub>2</sub>, slocknar snabbare i CO<sub>2</sub>)</button>
+                    <button class="btn-option" data-value="lime">Bubbling genom kalkvatten (Ca(OH)<sub>2</sub> reagerar med CO<sub>2</sub> och bildar vit fällning av CaCO<sub>3</sub>)</button>
+                    <button class="btn-option" data-value="bromothymol">Bubbling genom bromtymolblått (övergår från blått till gult i närvaro av CO<sub>2</sub> genom surgörning)</button>
+                    <button class="btn-option" data-value="volume">Volymanalys (gasen jämförs med känd standard av O<sub>2</sub> för densitet)</button>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Analysera metoderna:</strong> Jämför metoderna ovan utifrån deras specificitet och felkällor. Varför är vissa metoder mer tillförlitliga än andra för att vetenskapligt bevisa syreproduktion?</p>
+                    <textarea id="method-analysis" rows="5" style="width: 100%; padding: 10px;" placeholder="Analysera t.ex. varför glödande sticka är/inte är tillräckligt specifik, potentiella felkällor med olika metoder, och hur du skulle hantera dem..."></textarea>
+                </div>
+                
+                <div id="feedback4" class="result-feedback"></div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Vilka övriga gaser kan förekomma i uppsamlingen från vattenpest, och hur skulle du utesluta dessa som alternativa förklaringar?</strong></p>
+                    <textarea id="alternative-gases" rows="4" style="width: 100%; padding: 10px;" placeholder="Diskutera t.ex. närvaro av vattenånga, kväve, eller andra gaser som kan påverka ditt resultat..."></textarea>
+                </div>
+            </div>
+
+            <div id="section1-5" class="hidden">
+                <h3>Kritisk analys av resultat och slutsatser</h3>
+                <div class="experiment-result" id="experimentResult1">
+                    <h4>Observerade data från fotosyntes-experiment:</h4>
+                    <table style="width: 100%; border-collapse: collapse; margin: 15px 0;">
+                        <tr style="background-color: #f2f2f2;">
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Försöksparameter</th>
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">I ljus</th>
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">I mörker (kontroll)</th>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Bubbelbildning från vattenpest</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Jämn, kontinuerlig</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Ingen eller minimal</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Gasvolym samlad efter 4 timmar</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">4,2 mL</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">0,3 mL</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Test med glödande sticka</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Flammar upp kraftigt</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Ingen uppflamning</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Test med kalkvatten</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Ingen grumling</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Svag grumling</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Fråga 5: Vetenskaplig bevisföring och alternativa förklaringar</h3>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Analysera datatabellen ovan. Vilka av följande påståenden utgör en giltig vetenskaplig slutsats baserad på dessa data?</strong> Välj alla som är korrekta.</p>
+                    <div class="options-container">
+                        <button class="btn-option" data-value="bubbles-proof">Bubblorna som bildas i ljus är ett direkt bevis för att vattenpest producerar syre under fotosyntes</button>
+                        <button class="btn-option" data-value="control-importance">Kontrollexperimentet i mörker är avgörande för att visa att syreproduktionen är ljusberoende</button>
+                        <button class="btn-option" data-value="multiple-tests">Kombinationen av flera test (glödande sticka och kalkvatten) stärker beviset genom att både påvisa O<sub>2</sub> och utesluta CO<sub>2</sub></button>
+                        <button class="btn-option" data-value="quantitative">De kvantitativa mätningarna (gasvolym) ger ett starkare bevis än bara kvalitativa observationer</button>
+                        <button class="btn-option" data-value="conclusive">Experimentet ger ett absolut och obestridligt bevis för fotosyntes</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Vilka alternativa förklaringar till resultaten måste vetenskapligt uteslutas, och hur skulle du göra det?</strong></p>
+                    <textarea id="alternative-explanations" rows="5" style="width: 100%; padding: 10px;" placeholder="Diskutera t.ex. temperatureffekter, löslighet av gaser i vatten, gasexpansion, eller andra biologiska processer..."></textarea>
+                </div>
+                
+                <div id="feedback5" class="result-feedback"></div>
+            </div>
+
+            <div class="experiment-nav">
+                <button id="prevBtn1" class="btn-prev" disabled>Föregående</button>
+                <button id="nextBtn1" class="btn-next">Nästa</button>
+            </div>
+        </div>
+
+        <!-- Experiment 2: Cellandningen förbrukar syre och producerar koldioxid -->
+        <div id="experiment2" class="experiment">
+            <h2>Experiment 2: Bevisa att cellandningen förbrukar syre och producerar koldioxid</h2>
+            
+            <div class="info-box">
+                <p>Cellandningen är processen där celler bryter ner socker med hjälp av syre för att få energi. Koldioxid (CO<sub>2</sub>) produceras som en biprodukt.</p>
+                <p>I detta experiment kommer vi att använda groende ärtor som har hög cellandningsaktivitet.</p>
+            </div>
+
+            <h3>Fråga 1: Utformning av hypoteser för cellandningsbevis</h3>
+            <p>Vid utformning av experiment för att bevisa cellandning måste hypoteserna vara tydliga, testbara och falsifierbara. Analysera följande hypoteser och välj vilka som är vetenskapligt lämpliga och testbara för ett cellandningsexperiment:</p>
+            
+            <div class="options-container">
+                <button class="btn-option" data-value="o2consume">Hypotes A: "Om cellandning sker i groende ärtor, kommer syrehalten i en sluten behållare att mätbart minska över tid jämfört med en kontroll med kokta ärtor."</button>
+                <button class="btn-option" data-value="co2produce">Hypotes B: "Om cellandning sker i groende ärtor, kommer koldioxidhalten att öka vilket kan mätas genom pH-förändring eller reaktion med kalkvatten."</button>
+                <button class="btn-option" data-value="energy">Hypotes C: "Om cellandning sker i groende ärtor, kommer energi att frigöras som kan mätas som värme."</button>
+                <button class="btn-option" data-value="subjective">Hypotes D: "Groende ärtor utför cellandning eftersom de behöver energi för att växa."</button>
+                <button class="btn-option" data-value="untestable">Hypotes E: "Cellandningens effektivitet i groende ärtor är perfekt anpassad för växtens överlevnad."</button>
+            </div>
+            
+            <div style="margin-top: 20px;">
+                <p><strong>För varje vald hypotes, förklara vilka specifika mätbara variabler som skulle behövas för att testa den:</strong></p>
+                <textarea id="hypothesis-variables" rows="5" style="width: 100%; padding: 10px;" placeholder="Förklara t.ex. för hypotes A vilka exakta mätningar som krävs, vilka kontroller som behövs, och hur resultaten skulle tolkas..."></textarea>
+            </div>
+            
+            <div id="feedback2-1" class="result-feedback"></div>
+
+            <div id="section2-2" class="hidden">
+                <h3>Fråga 2: Metodologisk analys och felkällor</h3>
+                <p>När vi skapar ett experiment för att bevisa cellandningen måste vi kritiskt analysera de metoder vi använder. För varje mätmetod finns potentiella felkällor som kan äventyra tillförlitligheten hos våra resultat.</p>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Del A: Välj metoder för att mäta:</strong></p>
+                    <div class="lab-equipment">
+                        <div class="lab-item" data-value="volume-decrease">Mätning av syreminskning via volymförändring</div>
+                        <div class="lab-item" data-value="o2-sensor">Direkt mätning av O<sub>2</sub>-halt med syresensor</div>
+                        <div class="lab-item" data-value="lime-water">CO<sub>2</sub>-detektion via kalkvatten</div>
+                        <div class="lab-item" data-value="bromthymol">CO<sub>2</sub>-detektion via pH-förändring (bromtymolblått)</div>
+                        <div class="lab-item" data-value="temperature">Värmeutveckling via temperaturmätning</div>
+                        <div class="lab-item" data-value="glucose-decrease">Mätning av glukosförbrukning</div>
+                        <div class="lab-item" data-value="respiration-rate">Mätning av respirationshastighet via tryckförändringar</div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del B: Analysera felkällor:</strong> För varje vald metod, identifiera minst en betydande felkälla och hur den kan kontrolleras eller korrigeras i din experimentdesign.</p>
+                    <textarea id="method-errors" rows="6" style="width: 100%; padding: 10px;" placeholder="Exempel: Vid syremätning via volymförändring kan vattenånga kondensera och påverka volymavläsningen. Detta kan kontrolleras genom..."></textarea>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del C: Designa ett rigoröst experiment:</strong> Vilka kontroller behövs för att bekräfta att dina observerade förändringar faktiskt beror på cellandning och inte på andra faktorer?</p>
+                    <div class="lab-equipment">
+                        <div class="lab-item" data-value="boiled-peas">Kokta ärtor (inaktiverad metabolism)</div>
+                        <div class="lab-item" data-value="different-temp">Samma uppsättning vid olika temperaturer</div>
+                        <div class="lab-item" data-value="empty-chamber">Tom mätkammare utan ärtor</div>
+                        <div class="lab-item" data-value="metabolic-inhibitor">Ärtorna behandlade med metabolisk hämmare</div>
+                        <div class="lab-item" data-value="seeds-diff-age">Ärtor i olika groning-stadier</div>
+                        <div class="lab-item" data-value="anaerobic">Jämförelse med anaeroba förhållanden</div>
+                    </div>
+                    <textarea id="control-explanation" rows="4" style="width: 100%; margin-top: 10px; padding: 10px;" placeholder="Förklara hur dina valda kontroller hjälper till att utesluta alternativa förklaringar..."></textarea>
+                </div>
+                
+                <div id="feedback2-2" class="result-feedback"></div>
+            </div>
+
+            <div id="section2-3" class="hidden">
+                <h3>Fråga 3: Kvantitativa bevis och dataanalys</h3>
+                <p>Ett stringent vetenskapligt bevis kräver kvantitativa data och adekvat analys. Nedan ser du resultat från ett experiment med groende ärtor. Analysera datan kritiskt.</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <h4>Experimentellt scenario:</h4>
+                    <p>Tre provrör gjordes i ordning med 25 groende ärtor i varje. Provrör 1 innehöll lufttorrt papper, provrör 2 innehöll fuktigt papper, och provrör 3 innehöll kokta ärtor på fuktigt papper. Varje provrör anslöts till ett mätrör med kalkvatten. Efter 24 timmar mättes CO<sub>2</sub>-produktionen genom att mäta mängden fällt kalciumkarbonat.</p>
+                    
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                        <tr style="background-color: #d9edf7;">
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Provrör</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Behandling</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">CaCO<sub>3</sub> fällning (mg)</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Temperatur (°C)</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">pH-förändring</th>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Provrör 1</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Groende ärtor + torrt papper</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">8,2 mg</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">22,1</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">7,0 → 6,4</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Provrör 2</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Groende ärtor + fuktigt papper</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">42,7 mg</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">24,3</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">7,0 → 5,8</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Provrör 3</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Kokta ärtor + fuktigt papper</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">3,1 mg</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">21,8</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">7,0 → 6,9</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Provrör 4</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Enbart fuktigt papper (kontroll)</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">2,8 mg</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">21,6</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">7,0 → 7,0</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Del A: Dataanalys</strong></p>
+                    <p>Baserat på datan ovan, vilka av följande slutsatser kan dras med vetenskaplig stringens? Välj alla som är giltiga:</p>
+                    
+                    <div class="options-container">
+                        <button class="btn-option" data-value="moisture">Fuktighet är en avgörande faktor för cellandningsintensiteten hos groende ärtor</button>
+                        <button class="btn-option" data-value="respiration-proof">Den ökade mängden CaCO<sub>3</sub> i provrör 2 jämfört med kontrollerna bevisar cellandning</button>
+                        <button class="btn-option" data-value="heat-cause">Den högre temperaturen i provrör 2 är orsaken till ökad CO<sub>2</sub>-produktion</button>
+                        <button class="btn-option" data-value="heat-effect">Den förhöjda temperaturen i provrör 2 är en konsekvens av intensivare cellandning</button>
+                        <button class="btn-option" data-value="both-evidence">Både pH-förändringen och CaCO<sub>3</sub>-fällningen utgör två oberoende bevis för CO<sub>2</sub>-produktion</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del B: Experimentell design</strong></p>
+                    <p>Vilka ytterligare kontroller eller mätningar skulle du behöva för att stärka beviset att CO<sub>2</sub>-produktionen specifikt beror på cellandning?</p>
+                    <textarea id="additional-controls" rows="5" style="width: 100%; padding: 10px;" placeholder="Föreslå kontroller som skulle stärka beviset. T.ex. skulle du kunna undersöka effekten av..."></textarea>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del C: Tolkning av anomalier</strong></p>
+                    <p>Hur förklarar du den lilla mängden CaCO<sub>3</sub> som bildades i provrör 3 och 4 trots att cellandningen borde vara inaktiverad i dessa?</p>
+                    <textarea id="anomaly-explanation" rows="4" style="width: 100%; padding: 10px;" placeholder="Förklara möjliga orsaker till mätvärden i kontrollerna..."></textarea>
+                </div>
+                
+                <div id="feedback2-3" class="result-feedback"></div>
+            </div>
+
+            <div id="section2-4" class="hidden">
+                <h3>Fråga 4: Analys av koldioxiddetektionsmetoder och deras vetenskapliga validitet</h3>
+                <p>För att vetenskapligt bevisa koldioxidproduktion från cellandning behöver vi förstå detektionsmetodernas kemiska grunder och begränsningar.</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <h4>För varje detektionsmetod nedan, genomför följande analys:</h4>
+                    <ol>
+                        <li>Förklara den underliggande kemiska reaktionen</li>
+                        <li>Bedöm metodens specificitet för CO<sub>2</sub></li>
+                        <li>Identifiera potentiella falska positiva resultat</li>
+                        <li>Bedöm metodens känslighet och kvantifieringsmöjligheter</li>
+                    </ol>
+                </div>
+                
+                <div class="options-container">
+                    <button class="btn-option" data-value="lime">Metod 1: Kalkvatten (Ca(OH)<sub>2</sub>-lösning)</button>
+                    <button class="btn-option" data-value="bromthymol">Metod 2: Bromtymolblått (pH-indikator)</button>
+                    <button class="btn-option" data-value="barium">Metod 3: Bariumhydroxidlösning</button>
+                    <button class="btn-option" data-value="gas-chromatography">Metod 4: Gaskromatografi med masspektrometri</button>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <textarea id="method-analysis" rows="8" style="width: 100%; padding: 10px;" placeholder="Analysera den valda metoden enligt de fyra punkterna ovan..."></textarea>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Kemisk balansering:</strong> Skriv och balansera den kemiska reaktionen som sker när koldioxid reagerar med kalkvatten:</p>
+                    <textarea id="chemical-equation" rows="3" style="width: 100%; padding: 10px;" placeholder="CO2 + Ca(OH)2 → ?"></textarea>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Kvantitativ analys:</strong> Om 25 groende ärtor producerar 42,7 mg CaCO<sub>3</sub> under 24 timmar via reaktionen med kalkvatten, hur mycket CO<sub>2</sub> (i mg) har producerats? Visa dina beräkningar.</p>
+                    <p><small>Tips: Molmassa CaCO<sub>3</sub> = 100,1 g/mol, CO<sub>2</sub> = 44,0 g/mol</small></p>
+                    <textarea id="quantitative-analysis" rows="4" style="width: 100%; padding: 10px;" placeholder="Beräkna CO2-mängden baserat på CaCO3-fällningen..."></textarea>
+                </div>
+                
+                <div id="feedback2-4" class="result-feedback"></div>
+            </div>
+
+            <div id="section2-5" class="hidden">
+                <h3>Fråga 5: Experimentell design och beviskraft för syreförbrukning</h3>
+                <p>Att bevisa syreförbrukning kräver rigorösa experimentella metoder och fullgod förståelse av möjliga felkällor.</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <h4>Experimentcenario:</h4>
+                    <p>Du genomför ett experiment där du vill undersöka syreförbrukning hos groende ärtor. Du har uppmätt följande resultat i tre olika experimentella uppsättningar:</p>
+                    
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                        <tr style="background-color: #e8f4f8;">
+                            <th style="border: 1px solid #b8daff; padding: 8px; text-align: left;">Uppsättning</th>
+                            <th style="border: 1px solid #b8daff; padding: 8px; text-align: left;">Beskrivning</th>
+                            <th style="border: 1px solid #b8daff; padding: 8px; text-align: left;">Initial O<sub>2</sub>-halt</th>
+                            <th style="border: 1px solid #b8daff; padding: 8px; text-align: left;">Final O<sub>2</sub>-halt efter 24h</th>
+                            <th style="border: 1px solid #b8daff; padding: 8px; text-align: left;">Tryckförändring</th>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">A</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">25 g groende ärtor, sluten behållare</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">20,9%</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">13,2%</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">-0,8 kPa</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">B</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">25 g kokta ärtor, sluten behållare</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">20,9%</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">20,5%</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">-0,1 kPa</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">C</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">25 g groende ärtor med KOH (CO<sub>2</sub>-absorbent)</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">20,9%</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">13,6%</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">-7,5 kPa</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Del A: Evidensanalys</strong></p>
+                    <p>Baserat på data ovan, analysera beviskraften i följande slutsatser. Välj alla som är vetenskapligt korrekta:</p>
+                    
+                    <div class="options-container">
+                        <button class="btn-option" data-value="consumption-evidence">Minskningen av O<sub>2</sub>-halt i uppsättning A ger starkt bevis för syreförbrukning, eftersom kontrolluppsättning B visar minimal förändring</button>
+                        <button class="btn-option" data-value="net-consumption">Tryckförändringen i uppsättning A är mindre än förväntat eftersom både O<sub>2</sub>-förbrukning och CO<sub>2</sub>-produktion påverkar trycket i motsatta riktningar</button>
+                        <button class="btn-option" data-value="pressure-evidence">Den kraftiga tryckförändringen i uppsättning C bevisar att ärtorna förbrukar syre, eftersom CO<sub>2</sub>-produktionen absorberas och inte motverkar tryckfallet</button>
+                        <button class="btn-option" data-value="wrong-conclusion">Minskningen i O<sub>2</sub>-halt i uppsättning A kan enbart bero på att CO<sub>2</sub> har tagit upp utrymme i den slutna behållaren</button>
+                        <button class="btn-option" data-value="o2-rate">Vi kan beräkna den exakta syreförbrukningshastigheten utan ytterligare information om behållarvolymen</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del B: Beräkning av syreförbrukning</strong></p>
+                    <p>Om behållarvolymen i uppsättning C är 500 ml, beräkna den totala mängden syre som förbrukats (i ml) under experimentet. Visa dina beräkningar.</p>
+                    <textarea id="o2-calculation" rows="4" style="width: 100%; padding: 10px;" placeholder="Beräkna den totala syreförbrukningen i ml..."></textarea>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del C: Metodanalys</strong></p>
+                    <p>Jämför följande metoder för att mäta syreförbrukning. Vilka är de viktigaste fördelarna och nackdelarna med varje metod i denna experimentella kontext?</p>
+                    <ol>
+                        <li>Direktmätning av O<sub>2</sub>-halt med syresensor</li>
+                        <li>Tryckmätning i sluten behållare med CO<sub>2</sub>-absorbent</li>
+                        <li>Volymförändring med manometer</li>
+                        <li>Glödande sticka-test</li>
+                    </ol>
+                    <textarea id="method-comparison" rows="6" style="width: 100%; padding: 10px;" placeholder="Jämför metoderna och analysera deras respektive styrkor och svagheter..."></textarea>
+                </div>
+                
+                <div id="feedback2-5" class="result-feedback"></div>
+            </div>
+
+            <div id="section2-6" class="hidden">
+                <h3>Fråga 6: Integration av bevis och falsifierbarhet</h3>
+                <p>I vetenskapliga undersökningar är det kritiskt att samla flera oberoende bevislinjer och överväga möjliga alternativa förklaringar.</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <h4>Sammanställt resultat från cellandningsundersökningar:</h4>
+                    <ul>
+                        <li>Kalkvatten blir grumligt när det kommer i kontakt med gas från groende ärtor (CO<sub>2</sub>-detektion)</li>
+                        <li>Gasvolymen i ett slutet system med ärtor minskar med 7,5 kPa när KOH absorberar CO<sub>2</sub> (O<sub>2</sub>-förbrukningsmätning)</li>
+                        <li>En glödande sticka slocknar snabbare i luften ovanför ärtorna efter 24 timmar</li>
+                        <li>Syrehalten sjunker från 20,9% till 13,2% i en sluten behållare med ärtor</li>
+                        <li>Temperaturen i behållaren med groende ärtor är 2,5°C högre än i kontrollbehållaren</li>
+                        <li>Värmeproduktionen upphör när ärtorna placeras i kväverik miljö utan syre</li>
+                    </ul>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Del A: Bevisintegrering</strong></p>
+                    <p>Vilken kombination av bevis ovan ger den starkaste evidensen för att cellandning (och inte någon annan process) pågår i groende ärtor? Välj den starkaste kombinationen och förklara varför.</p>
+                    
+                    <div class="options-container">
+                        <button class="btn-option" data-value="co2-temp">CO<sub>2</sub>-produktion och temperaturökning</button>
+                        <button class="btn-option" data-value="o2-co2">O<sub>2</sub>-förbrukning och CO<sub>2</sub>-produktion</button>
+                        <button class="btn-option" data-value="o2-test">O<sub>2</sub>-förbrukning och glödande sticka-test</button>
+                        <button class="btn-option" data-value="complete">O<sub>2</sub>-förbrukning, CO<sub>2</sub>-produktion, värmebildning, och upphörande i anaerob miljö</button>
+                        <button class="btn-option" data-value="temp-volume">Temperaturökning och volymförändringar</button>
+                    </div>
+                    
+                    <textarea id="evidence-reasoning" rows="4" style="width: 100%; margin-top: 10px; padding: 10px;" placeholder="Förklara varför den valda kombinationen ger starkast bevis..."></textarea>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del B: Falsifierbarhet och alternativa förklaringar</strong></p>
+                    <p>Vilka alternativa förklaringar till de observerade resultaten måste uteslutas för att bevisa att cellandning pågår? Välj alla rimliga alternativa förklaringar:</p>
+                    
+                    <div class="options-container">
+                        <button class="btn-option" data-value="microbial">Mikrobiell aktivitet i jorden kring ärtorna kan producera CO<sub>2</sub> och förbruka O<sub>2</sub></button>
+                        <button class="btn-option" data-value="chemical">Kemiska (icke-biologiska) reaktioner mellan ärtor och vatten kan frigöra CO<sub>2</sub></button>
+                        <button class="btn-option" data-value="enzyme">Enzymatiska processer som inte är kopplade till cellandning kan pågå</button>
+                        <button class="btn-option" data-value="physics">Fysikaliska faktorer som förändringar i temperatur och tryck kan påverka gasvolymer</button>
+                        <button class="btn-option" data-value="flea">En liten loppa inne i experiment
+
+            <div class="experiment-nav">
+                <button id="prevBtn2" class="btn-prev">Föregående</button>
+                <button id="nextBtn2" class="btn-next">Nästa</button>
+            </div>
+        </div>
+
+        <!-- Experiment 3: Testa för näringsämnen (stärkelse/socker) -->
+        <div id="experiment3" class="experiment">
+            <h2>Experiment 3: Bevisa att fotosyntesen producerar socker</h2>
+            
+            <div class="info-box">
+                <p>Fotosyntesen producerar glukos (socker) som sedan kan omvandlas till stärkelse i växten. Hur kan vi bevisa att detta sker?</p>
+                <p>I detta experiment kommer vi att använda jodtest och Trommers prov för att påvisa stärkelse och socker.</p>
+            </div>
+
+            <h3>Fråga 1: Vetenskaplig analys av näringsprovning</h3>
+            <p>För att studera sockret som produceras i fotosyntesen behöver vi förstå vilka ämnen som faktiskt bildas och hur vi kan påvisa dem. Analysera följande och välj alla korrekta påståenden:</p>
+            
+            <div class="options-container">
+                <button class="btn-option" data-value="starch-storage">Växter lagrar överskott av glukos från fotosyntesen som stärkelse, vilket kan påvisas med jodlösning</button>
+                <button class="btn-option" data-value="direct-glucose">Glukos (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) kan påvisas direkt i växtblad med Fehlings lösning/Benedicts reagens eftersom det är en reducerande sockerart</button>
+                <button class="btn-option" data-value="direct-observation">Genom att observera bubblor från en vattenväxt kan man direkt påvisa att socker produceras</button>
+                <button class="btn-option" data-value="sucrose-transport">Sackaros (vanligt socker) är huvudformen för kolhydrattransport i många växter och är inte en reducerande sockerart</button>
+                <button class="btn-option" data-value="all-carbohydrates">Alla kolhydrater kan påvisas med samma kemiska test</button>
+            </div>
+            
+            <div style="margin-top: 20px;">
+                <p><strong>Redogör för den biokemiska och fysiologiska grunden:</strong> Förklara varför växter omvandlar glukos från fotosyntesen till stärkelse och vilka biologiska fördelar detta ger.</p>
+                <textarea id="starch-reasoning" rows="5" style="width: 100%; padding: 10px;" placeholder="Förklara den fysiologiska betydelsen av omvandlingen från glukos till stärkelse..."></textarea>
+            </div>
+            
+            <div id="feedback3-1" class="result-feedback"></div>
+
+            <div id="section3-2" class="hidden">
+                <h3>Fråga 2: Biokemisk analys av detektionsmetoder för kolhydrater</h3>
+                <p>Olika kemiska test används för att identifiera olika typer av kolhydrater. Analysera följande testmetoder utifrån deras kemiska reaktioner, specificitetsgrad och eventuella begränsningar:</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <table style="width: 100%; border-collapse: collapse;">
+                        <tr style="background-color: #e1edf7;">
+                            <th style="border: 1px solid #b8daff; padding: 8px; text-align: left;">Test</th>
+                            <th style="border: 1px solid #b8daff; padding: 8px; text-align: left;">Målämne</th>
+                            <th style="border: 1px solid #b8daff; padding: 8px; text-align: left;">Princip</th>
+                            <th style="border: 1px solid #b8daff; padding: 8px; text-align: left;">Positivt resultat</th>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Jodtest</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Stärkelse (amylos)</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Jod-jodkalium binds i amylosens spiralstruktur</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Blåsvart färg</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Fehlings test</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Reducerande socker</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Cu<sup>2+</sup> reduceras till Cu<sup>+</sup> av aldehyd/ketongrupp</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Röd fällning (Cu<sub>2</sub>O)</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Benedicts test</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Reducerande socker</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Cu<sup>2+</sup> reduceras till Cu<sup>+</sup> av aldehyd/ketongrupp</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Orange/röd fällning</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Seliwanoffs test</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Ketoser (t.ex. fruktos)</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Ketogrupper bildar hydroximetylfurfural</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Röd färg</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Barfoeds test</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Monosackarider</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Cu<sup>2+</sup> reduceras i sur miljö</td>
+                            <td style="border: 1px solid #b8daff; padding: 8px;">Röd fällning (Cu<sub>2</sub>O)</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="options-container">
+                    <button class="btn-option" data-value="iodine-specific">Jodtestet är det mest specifika testet för växtbaserade fotosyntesprodukter eftersom det endast reagerar med stärkelse</button>
+                    <button class="btn-option" data-value="benedict-fehling">Benedicts test och Fehlings lösning kan inte skilja mellan olika typer av reducerande socker (glukos, maltos, laktos)</button>
+                    <button class="btn-option" data-value="non-reducing">Sackaros (vanligt bordssocker) ger inga positiva resultat med Fehlings eller Benedicts test eftersom det inte är ett reducerande socker</button>
+                    <button class="btn-option" data-value="combined-tests">En kombination av flera tester (jod + Benedict + hydrolys med syra) behövs för att ge fullständig analys av en växts kolhydratinnehåll</button>
+                    <button class="btn-option" data-value="test-order">Ordningen i vilken testerna utförs spelar ingen roll för resultatet</button>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Förklara eventuella falska positiva/negativa resultat:</strong> Vilka andra ämnen kan ge positivt utslag i jodtestet eller i Fehlings/Benedicts test, och hur kan du utesluta dessa?</p>
+                    <textarea id="false-results" rows="4" style="width: 100%; padding: 10px;" placeholder="Förklara möjliga felkällor och hur man kan kontrollera för dem..."></textarea>
+                </div>
+                
+                <div id="feedback3-2" class="result-feedback"></div>
+            </div>
+
+            <div id="section3-3" class="hidden">
+                <h3>Fråga 3: Kritisk experimentdesign för att påvisa fotosyntetisk kolhydratproduktion</h3>
+                <p>För att bevisa att fotosyntesen producerar stärkelse och socker måste vi utesluta alternativa förklaringar och säkerställa att resultaten är direkt kopplade till fotosyntes. Designa ett fullständigt experiment med lämpliga kontroller och metodologiska överväganden.</p>
+                
+                <div class="interactive-area">
+                    <div id="steps-container-3">
+                        <div class="drag-item" draggable="true" data-step="1">Håll växten i mörker i 24-48 timmar för att förbruka befintlig stärkelse (avsvälta växten)</div>
+                        <div class="drag-item" draggable="true" data-step="2">Täck delar av ett eller flera blad med aluminiumfolie eller svart papper (partiell mörkläggning)</div>
+                        <div class="drag-item" draggable="true" data-step="3">Använd en kontrollväxt som hålls i fullständigt mörker under hela experimentet</div>
+                        <div class="drag-item" draggable="true" data-step="4">Exponera växten för ljus under kontrollerade förhållanden i 4-6 timmar</div>
+                        <div class="drag-item" draggable="true" data-step="5">Skörda blad från både experimentväxt och kontroll</div>
+                        <div class="drag-item" draggable="true" data-step="6">Inaktivera enzymer genom att koka bladen i vatten (denaturerar proteiner)</div>
+                        <div class="drag-item" draggable="true" data-step="7">Avlägsna klorofyll genom att lägga bladen i kokande etanol (förbättrar synligheten för färgreaktioner)</div>
+                        <div class="drag-item" draggable="true" data-step="8">Skölja bladen i destillerat vatten för att avlägsna etanol</div>
+                        <div class="drag-item" draggable="true" data-step="9">Utföra jodtest på bladen för att påvisa stärkelse</div>
+                        <div class="drag-item" draggable="true" data-step="10">Skapa bladextrakt från både belysta och mörklagda blad</div>
+                        <div class="drag-item" draggable="true" data-step="11">Utföra Benedict/Fehling-test på bladextraktet för att påvisa reducerande socker</div>
+                        <div class="drag-item" draggable="true" data-step="12">Hydrolysera en del av extraktet med syra för att bryta ner stärkelse/sackaros till reducerande socker</div>
+                        <div class="drag-item" draggable="true" data-step="13">Upprepa Benedict/Fehling-test på det hydrolyserade extraktet</div>
+                        <div class="drag-item" draggable="true" data-step="14">Dokumentera och jämföra resultat från alla tester och kontroller</div>
+                    </div>
+                    <p>Dra och släpp stegen i rätt ordning för ett fullständigt och vetenskapligt stringent experiment:</p>
+                    <div id="experiment3-dropzone" class="drop-zone"></div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Motivera din experimentdesign:</strong> Förklara det metodologiska värdet av följande komponenter:</p>
+                    <ol>
+                        <li>Varför är det nödvändigt att först hålla växten i mörker (avsvältning)?</li>
+                        <li>Varför täcka endast delar av bladen istället för hela blad?</li>
+                        <li>Varför behövs hydrolyssteget i analysen?</li>
+                    </ol>
+                    <textarea id="design-rationale" rows="6" style="width: 100%; padding: 10px;" placeholder="Förklara den metodologiska betydelsen av dessa val..."></textarea>
+                </div>
+                
+                <div id="feedback3-3" class="result-feedback"></div>
+            </div>
+
+            <div id="section3-4" class="hidden">
+                <h3>Fråga 4: Tolkning av experimentella resultat och felkällor</h3>
+                <p>Nedan ser du resultaten från ett väldesignat fotosyntes-kolhydratexperiment med stärkelsetestning genom jodlösning. Analysera resultaten kritiskt.</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px; text-align: center;">
+                    <img src="https://i.imgur.com/placeholder.jpg" alt="Illustration av blad med jodtest" style="max-width: 100%; height: auto; border: 1px solid #ddd; margin-bottom: 10px;">
+                    <p style="text-align: center; font-style: italic; font-size: 0.9em;">Figur: Variegerad pelargonblad som utsatts för jodtest efter att ha stått i ljus i 6 timmar.</p>
+                    
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                        <tr style="background-color: #d9edf7;">
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Bladregion</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Färg innan jodtest</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Färg efter jodtest</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Klorofyll närvarande</th>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Gröna områden</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Mörkgrön</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Mörkblå till svart</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Ja</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Vita områden</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Gulvit</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Gulbrun</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Nej</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Områden täckta med folie</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Mörkgrön</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Gulbrun</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Ja</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Del A: Vilka slutsatser kan du dra från dessa resultat? Välj de vetenskapligt korrekta:</strong></p>
+                    
+                    <div class="options-container">
+                        <button class="btn-option" data-value="chlorophyll-starch">Stärkelseproduktion sker endast i bladregioner som innehåller klorofyll</button>
+                        <button class="btn-option" data-value="light-dependent">Stärkelseproduktion är ljusberoende, även i regioner med klorofyll</button>
+                        <button class="btn-option" data-value="dual-requirement">Både klorofyll och ljus är nödvändiga för stärkelseproduktion genom fotosyntes</button>
+                        <button class="btn-option" data-value="transport">Stärkelse transporteras inte mellan olika delar av bladet</button>
+                        <button class="btn-option" data-value="correlation">Resultaten visar en korrelation men inte nödvändigtvis kausalitet mellan klorofyll, ljus och stärkelseproduktion</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del B: Metodologisk kritik</strong></p>
+                    <p>Identifiera minst tre potentiella felkällor eller metodologiska begränsningar i detta experiment och förklara hur de skulle kunna påverka tolkningen av resultaten.</p>
+                    <textarea id="methodological-limitations" rows="5" style="width: 100%; padding: 10px;" placeholder="Identifiera metodologiska begränsningar, t.ex. eventuella problem med avlägsnande av klorofyll, potentiella problem med jodtestets specificitet..."></textarea>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del C: Designa en förbättrad version</strong></p>
+                    <p>Föreslå minst två specifika metodologiska förbättringar för att stärka beviskraften i experimentet.</p>
+                    <textarea id="improved-design" rows="4" style="width: 100%; padding: 10px;" placeholder="Beskriv specifika förbättringar som kan stärka experimentets validitet..."></textarea>
+                </div>
+                
+                <div id="feedback3-4" class="result-feedback"></div>
+            </div>
+
+            <div id="section3-5" class="hidden">
+                <h3>Fråga 5: Kvantitativa analyser och biokemisk förståelse</h3>
+                <p>I mer avancerade undersökningar av fotosyntesens kolhydratproduktion används kvantitativa metoder för att mäta produktionshastighet och mängder. Analysera följande metoder och data.</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <h4>Experiment: Kvantifiering av sockerproduktion hos spenatblad</h4>
+                    <p>I detta experiment mättes glukoskoncentrationen i bladextrakt efter olika tidsperioder i ljus med enzymatisk metod (glukosoxidas). Bladextraktet bearbetades i två fraktioner: (A) omedelbar analys och (B) efter behandling med amylas för att bryta ner stärkelse till glukos.</p>
+                    
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                        <tr style="background-color: #d9edf7;">
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Ljusexponering (timmar)</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Glukos i direkt extrakt (mg/g färskvikt)</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Glukos efter amylasbehandling (mg/g färskvikt)</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Differens (mg/g färskvikt)</th>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">0 (mörkeradapterad)</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">0,8</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">1,2</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">0,4</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">2</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">1,4</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">3,6</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">2,2</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">4</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">1,8</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">7,5</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">5,7</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">6</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">2,0</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">12,3</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">10,3</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">6 (ingen CO<sub>2</sub>-tillgång)</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">0,9</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">1,5</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">0,6</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Del A: Dataanalys</strong></p>
+                    <p>Baserat på denna kvantitativa data, vilka slutsatser kan dras? Välj alla vetenskapligt korrekta:</p>
+                    
+                    <div class="options-container">
+                        <button class="btn-option" data-value="starch-storage">Stärkelse (mätt som differensen) är den primära lagringsformen för kolhydrater i fotosyntesen</button>
+                        <button class="btn-option" data-value="rate-increase">Stärkelseackumulationshastigheten ökar med tiden (är inte linjär)</button>
+                        <button class="btn-option" data-value="free-glucose">Fri glukos ackumuleras i mindre grad än stärkelse under fotosyntesen</button>
+                        <button class="btn-option" data-value="co2-dependence">CO<sub>2</sub>-tillgänglighet är avgörande för stärkelseackumulation, vilket bekräftar att Calvin-cykeln är inblandad</button>
+                        <button class="btn-option" data-value="linear-production">Stärkelseproduktionen sker i konstant hastighet över hela experimentperioden</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del B: Kvantitativa beräkningar</strong></p>
+                    <p>Beräkna stärkelseproduktionshastigheten (i mg glukosekvivalenter per g färskvikt per timme) under tidsintervallen:</p>
+                    <ol>
+                        <li>0-2 timmar</li>
+                        <li>2-4 timmar</li>
+                        <li>4-6 timmar</li>
+                    </ol>
+                    <textarea id="rate-calculation" rows="4" style="width: 100%; padding: 10px;" placeholder="Utför beräkningar av produktionshastigheter för varje tidsintervall..."></textarea>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del C: Trommers prov/Benedicts test</strong></p>
+                    <p>Förklara de kemiska reaktioner som sker i Fehlings lösning eller Benedicts reagens när de används för att påvisa reducerande socker. Inkludera elektronöverföringen och varför vissa sockerarter reagerar men inte andra.</p>
+                    <textarea id="benedict-chemistry" rows="5" style="width: 100%; padding: 10px;" placeholder="Förklara den kemiska mekanismen i Fehlings/Benedicts reaktion med reducerande socker..."></textarea>
+                </div>
+                
+                <div id="feedback3-5" class="result-feedback"></div>
+            </div>
+
+            <div id="section3-6" class="hidden">
+                <h3>Fråga 6: Integration av bevis och kritisk analys</h3>
+                <p>Ett fullständigt bevis för att fotosyntesen producerar socker måste integreras med vår förståelse av hela processen och dess större biologiska kontext.</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <h4>Sammanfattning av experimentella bevis:</h4>
+                    <ol>
+                        <li><strong>Jodtest</strong>: Belysta bladdelar visar blåsvart färgning, medan mörklagda delar inte visar färgförändring.</li>
+                        <li><strong>Trommers prov</strong>: Bladextrakt från belysta delar ger röd fällning, vilket indikerar reducerande socker.</li>
+                        <li><strong>CO<sub>2</sub>-beroende</strong>: I miljö utan CO<sub>2</sub> sker ingen stärkelseproduktion trots ljustillgång.</li>
+                        <li><strong>Kvantitativ analys</strong>: Stärkelseproduktionen ökar över tid under ljusexponering.</li>
+                        <li><strong>Kontroll</strong>: Variegerade blad visar stärkelseproduktion endast i gröna, klorofyllhaltiga regioner i ljus.</li>
+                    </ol>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Del A: Biochemisk integration</strong></p>
+                    <p>Vilka av följande slutsatser är helt stödda av ovanstående bevis i kombination? Välj alla som är korrekt validerade:</p>
+                    
+                    <div class="options-container">
+                        <button class="btn-option" data-value="photosynthesis-validated">Det kombinerade kravet på ljus, klorofyll och CO<sub>2</sub> för stärkelseproduktion ger starkt stöd för fotosyntesprocesen</button>
+                        <button class="btn-option" data-value="stoichiometry">Stökiometrin i fotosyntesreaktionen (6CO<sub>2</sub> + 6H<sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>) är direkt bevisad genom de utförda testen</button>
+                        <button class="btn-option" data-value="calvin-cycle">Calvin-cykelns specifika steg är indirekt bekräftade genom CO<sub>2</sub>-beroendet för kolhydratproduktion</button>
+                        <button class="btn-option" data-value="cellular-structure">Sambandet mellan kloroplasternas struktur och deras funktion i kolhydratsyntes är direkt bevisat genom testerna</button>
+                        <button class="btn-option" data-value="holistic-view">De kombinerade bevisen ger stark stödja för att fotosyntesen producerar glukos som sedan kan omvandlas till stärkelse, men detaljerna i alla biokemiska steg är inte direkt bevisade</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del B: Från observation till förklaring</strong></p>
+                    <p>Inom vetenskaplig metodik finns en viktig skillnad mellan att observera ett fenomen och att förklara hur och varför det sker. Beskriv vilken aspekt av fotosyntesen som är bevisad respektive hypotetisk baserat på ovanstående experiment:</p>
+                    <textarea id="observation-explanation" rows="5" style="width: 100%; padding: 10px;" placeholder="Analysera vad de experimentella bevisen faktiskt bevisar och vilka aspekter som förblir hypotetiska..."></textarea>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del C: Vetenskaplig bevisföring och teorier</strong></p>
+                    <p>Förklara sambandet mellan de specifika bevisen som samlats genom experiment och den övergripande teori om fotosyntes som accepteras inom vetenskapen. Hur bygger vi broar mellan enskilda experimentella bevis och generaliserade teorier?</p>
+                    <textarea id="evidence-theory" rows="5" style="width: 100%; padding: 10px;" placeholder="Diskutera hur experimentella bevis används för att upprätta eller stödja teorier och vilken roll observation, tolkning och reproducerbarhet spelar..."></textarea>
+                </div>
+                
+                <div id="feedback3-6" class="result-feedback"></div>
+            </div>
+
+            <div class="experiment-nav">
+                <button id="prevBtn3" class="btn-prev">Föregående</button>
+                <button id="nextBtn3" class="btn-next">Nästa</button>
+            </div>
+        </div>
+
+        <!-- Sluttest -->
+        <div id="finalTest" class="experiment">
+            <h2>Sluttest: Att bevisa biologiska processer</h2>
+            
+            <div class="info-box">
+                <p>Nu har du lärt dig hur man vetenskapligt bevisar fotosyntesen och cellandningen. Dags att testa dina kunskaper!</p>
+                <p>Svara på följande frågor för att se om du förstår vad som krävs för ett vetenskapligt bevis.</p>
+            </div>
+
+            <div class="step">
+                <h3>Fråga 1: Vetenskaplig bevisföring och epistemologi</h3>
+            <p>Inom naturvetenskap skiljer vi mellan observationer, bevis och teoretiska förklaringar. För att förstå vad ett "bevis" faktiskt innebär behöver vi granska grundläggande vetenskapsteoretiska principer.</p>
+            
+            <div style="margin-bottom: 20px;">
+                <p><strong>Vilka av följande påståenden beskriver korrekt vad ett vetenskapligt bevis är?</strong> Välj alla som är epistemologiskt korrekta:</p>
+                
+                <div class="options-container">
+                    <button class="btn-option" data-value="absolute-proof">Ett vetenskapligt bevis ger absolut och definitiv kunskap som aldrig kan ifrågasättas</button>
+                    <button class="btn-option" data-value="empirical-evidence">Ett vetenskapligt bevis består av systematiska observationer och mätningar som stödjer (men inte definitivt bevisar) en specifik hypotes</button>
+                    <button class="btn-option" data-value="falsification">Vetenskaplig bevisföring handlar primärt om att utesluta alternativa förklaringar genom att testa falsifierbara prediktioner</button>
+                    <button class="btn-option" data-value="theory-neutral">Vetenskapliga observationer är objektiva och helt oberoende av teori</button>
+                    <button class="btn-option" data-value="multiple-lines">Starkast bevis kommer från flera oberoende bevislinjer som alla stödjer samma slutsats</button>
+                </div>
+            </div>
+            
+            <div style="margin-top: 20px;">
+                <p><strong>Analysera och förklara skillnaden mellan följande påståenden relaterade till fotosyntes och cellandning:</strong></p>
+                <ol>
+                    <li>"Vi observerade bubblor från en vattenväxt i ljus"</li>
+                    <li>"Vi påvisade att den uppsamlade gasen är syre genom ett glödande sticka-test"</li>
+                    <li>"Vi bevisade att fotosyntes producerar syre"</li>
+                </ol>
+                <textarea id="epistemology-analysis" rows="6" style="width: 100%; padding: 10px;" placeholder="Analysera skillnaden mellan observation, identifiering, och teoretisk förklaring i dessa tre påståenden..."></textarea>
+            </div>
+            
+            <div id="feedbackFinal1" class="result-feedback"></div>
+            </div>
+
+            <div class="step">
+                <h3>Fråga 2: Integration av processer i biosfärens kretsloppssystem</h3>
+                <p>Fotosyntes och cellandning existerar inte som isolerade fenomen utan ingår i större biogeokemiska kretslopp. Analysera kopplingar mellan dessa processer i ett ekosystemperspektiv.</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <h4>Kretsloppsdiagram:</h4>
+                    <p style="text-align: center; font-style: italic;">En grafisk representation av kol- och syrekretslopp i biosfären skulle visas här.</p>
+                    
+                    <div style="display: flex; justify-content: space-between; text-align: center; margin-top: 15px;">
+                        <div style="flex: 1; border: 1px solid #ddd; padding: 10px; background-color: #e8f4f8;">
+                            <h5>Fotosyntes</h5>
+                            <p>6 CO<sub>2</sub> + 6 H<sub>2</sub>O + ljusenergi → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6 O<sub>2</sub></p>
+                            <ul style="text-align: left; font-size: 0.9em;">
+                                <li>Konsumerar CO<sub>2</sub></li>
+                                <li>Producerar O<sub>2</sub></li>
+                                <li>Bygger upp kolhydrater</li>
+                                <li>Omvandlar ljusenergi till kemisk energi</li>
+                            </ul>
+                        </div>
+                        <div style="width: 10%; display: flex; align-items: center; justify-content: center;">
+                            <div style="font-size: 24px;">⇄</div>
+                        </div>
+                        <div style="flex: 1; border: 1px solid #ddd; padding: 10px; background-color: #f8e8e8;">
+                            <h5>Cellandning</h5>
+                            <p>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6 O<sub>2</sub> → 6 CO<sub>2</sub> + 6 H<sub>2</sub>O + energi (ATP)</p>
+                            <ul style="text-align: left; font-size: 0.9em;">
+                                <li>Konsumerar O<sub>2</sub></li>
+                                <li>Producerar CO<sub>2</sub></li>
+                                <li>Bryter ner kolhydrater</li>
+                                <li>Frigör kemisk energi för cellulära processer</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Vilket av följande påståenden representerar korrekt den ekologiska relationen mellan fotosyntes och cellandning?</strong> Välj alla som stämmer:</p>
+                    
+                    <div class="options-container">
+                        <button class="btn-option" data-value="reciprocal-processes">Fotosyntes och cellandning är komplementära processer där produkterna från den ena används som substrat i den andra</button>
+                        <button class="btn-option" data-value="energy-flow">Fotosyntes representerar energiinfångning från solen medan cellandning representerar energifrigörelse, vilket driver energiflödet i ekosystem</button>
+                        <button class="btn-option" data-value="carbon-fixation">Fotosyntesen fixerar atmosfäriskt kol till organiskt material, medan cellandningen återför det till atmosfären - vilket utgör grunden för kolets kretslopp</button>
+                        <button class="btn-option" data-value="closed-system">Syrehalten i atmosfären är konstant eftersom produktionen och konsumtionen alltid är i perfekt balans</button>
+                        <button class="btn-option" data-value="separate-organisms">Fotosyntes och cellandning sker alltid i olika organismer och aldrig i samma organism</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Analys av ekosystemnivå:</strong> Förklara hur man vetenskapligt skulle kunna bevisa kopplingen mellan fotosyntes och cellandning på ekosystemnivå. Vilka mätningar och experiment skulle kunna påvisa deras ömsesidiga beroende?</p>
+                    <textarea id="ecosystem-evidence" rows="5" style="width: 100%; padding: 10px;" placeholder="Beskriv experimentella ansatser för att studera kopplingen mellan processerna på ekosystemnivå..."></textarea>
+                </div>
+                
+                <div id="feedbackFinal2" class="result-feedback"></div>
+            </div>
+
+="">Välj variabeltyp</option>
+                                    <option value="independent">Oberoende variabel</option>
+                                    <option value="dependent">Beroende variabel</option>
+                                    <option value="control">Kontrollvariabel</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del B: Experimentdesign med kontroller</strong></p>
+                    <p>Beskriv det optimala experimentuppställningen för att simultant bevisa både fotosyntes och cellandning. Inkludera:</p>
+                    <ol>
+                        <li>Minst två experimentella behandlingar</li>
+                        <li>Minst två kontrollbehandlingar</li>
+                        <li>Exakta mätningar som kommer att utföras</li>
+                        <li>Förväntade utfall om både fotosyntes och cellandning sker</li>
+                        <li>Hur du kan utesluta alternativa förklaringar till resultaten</li>
+                    </ol>
+                    <textarea id="experimental-design" rows="8" style="width: 100%; padding: 10px;" placeholder="Beskriv experimentuppställningen i detalj..."></textarea>
+                </div>
+                
+                <div id="feedbackFinal3" class="result-feedback"></div>
+            </div>
+
+            <div class="step">
+                <h3>Fråga 4: Metodologisk analys och vetenskaplig stringens</h3>
+                <p>Analysera följande påståenden om fotosyntes och cellandning från ett metodologiskt perspektiv. Identifiera påståenden som är vetenskapligt korrekta enligt principerna för god bevisföring.</p>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Välj alla vetenskapligt korrekta påståenden:</strong></p>
+                    
+                    <div class="options-container">
+                        <button class="btn-option" data-value="correct-design">Ett väl utformat experiment för fotosyntes måste kontrollera för både ljustillgång och CO<sub>2</sub>-tillgång för att vara beviskraftigt</button>
+                        <button class="btn-option" data-value="observation-fallacy">Om vi observerar bubblor från en vattenväxt i ljus är detta ett direkt bevis för att syre produceras genom fotosyntes</button>
+                        <button class="btn-option" data-value="negative-control">Negativa kontroller (t.ex. värmeinaktiverade växter eller mörklagda behandlingar) är avgörande för att säkerställa att observerade effekter faktiskt beror på de biologiska processerna</button>
+                        <button class="btn-option" data-value="single-test">Ett enda specifikt test är tillräckligt för att bevisa en komplex biologisk process som fotosyntes eller cellandning</button>
+                        <button class="btn-option" data-value="quantitative-approach">Kvantitativa mätningar och statistisk analys ger starkare bevis än enbart kvalitativa observationer</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Kritisk analys av metodologiska problem:</strong></p>
+                    <p>Granska följande experimentella ansats kritiskt och identifiera minst tre metodologiska brister:</p>
+                    <div style="background-color: #fff3cd; padding: 15px; border-left: 5px solid #ffc107; margin-bottom: 15px;">
+                        <em>"För att bevisa fotosyntesen placerade vi en vattenväxt i ett akvarium och observerade bubblor som bildades i ljus. Eftersom teorin säger att fotosyntesen producerar syre, kan vi dra slutsatsen att bubblorna innehåller syre och att fotosyntesen därmed är bevisad."</em>
+                    </div>
+                    <textarea id="methodological-critique" rows="6" style="width: 100%; padding: 10px;" placeholder="Identifiera metodologiska brister i den beskrivna experimentella ansatsen..."></textarea>
+                </div>
+                
+                <div id="feedbackFinal4" class="result-feedback"></div>
+            </div>
+
+            <div class="step">
+                <h3>Fråga 5: Datatolkning och alternativa hypoteser</h3>
+                <p>En kritisk del av vetenskaplig bevisföring är förmågan att korrekt tolka experimentella resultat och överväga alternativa förklaringar.</p>
+                
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <h4>Resultat från fotosyntesexperiment:</h4>
+                    <p>Ett experiment genomfördes för att bevisa syreproduktion från vattenpest. Gasuppsamling gjordes i provrör över vattenväxter i olika behandlingar, och den uppsamlade gasen testades med en glödande sticka. Data från experimentet sammanfattas i tabellen nedan:</p>
+                    
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                        <tr style="background-color: #d9edf7;">
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Behandling</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Gasvolym samlad (ml)</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Reaktion med glödande sticka</th>
+                            <th style="border: 1px solid #bce8f1; padding: 8px; text-align: left;">Reaktion med kalkvatten</th>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">A. Växt i ljus med CO<sub>2</sub>-berikat vatten</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">8,5</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Flammar upp kraftigt</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Ingen grumling</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">B. Växt i ljus utan extra CO<sub>2</sub></td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">3,2</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Flammar upp svagt</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Ingen grumling</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">C. Växt i mörker med CO<sub>2</sub>-berikat vatten</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">0,8</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Slocknar snabbare</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Tydlig grumling</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">D. Endast vatten (ingen växt) i ljus</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">0,3</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Ingen förändring</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Ingen grumling</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">E. Växt i varmt vatten (45°C) i ljus</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">0,5</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Ingen förändring</td>
+                            <td style="border: 1px solid #bce8f1; padding: 8px;">Svag grumling</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <p><strong>Del A: Datatolkning</strong></p>
+                    <p>Analysera data från experimentet ovan. Vilka slutsatser kan dras med stöd av de experimentella resultaten? Välj alla som är korrekta:</p>
+                    
+                    <div class="options-container">
+                        <button class="btn-option" data-value="light-dependent">Syreproduktionen är ljusberoende (jämför behandling A och C)</button>
+                        <button class="btn-option" data-value="co2-dependent">Tillgång till CO<sub>2</sub> ökar syreproduktionen (jämför behandling A och B)</button>
+                        <button class="btn-option" data-value="active-process">Syreproduktionen är en biologisk process som kräver levande, aktiva celler (jämför behandling A och E)</button>
+                        <button class="btn-option" data-value="respiration-evident">Cellandningen är tydligt påvisad i mörker genom CO<sub>2</sub>-produktion (behandling C)</button>
+                        <button class="btn-option" data-value="temperature-photosynthesis">Hög temperatur stimulerar fotosyntesen (behandling E)</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Del B: Alternativa förklaringar</strong></p>
+                    <p>Identifiera potentiella alternativa förklaringar till de observerade resultaten, och förklara hur du skulle designa ytterligare experiment för att utesluta dessa alternativa förklaringar:</p>
+                    <textarea id="alternative-explanations" rows="6" style="width: 100%; padding: 10px;" placeholder="För varje alternativ förklaring, beskriv ett experiment som skulle kunna utesluta den..."></textarea>
+                </div>
+                
+                <div id="feedbackFinal5" class="result-feedback"></div>
+            </div>
+
+            <div id="certificateSection" class="hidden">
+                <div class="certificate">
+                    <h2>CERTIFIKAT</h2>
+                    <h3>Bevisjakten: Fotosyntes och Cellandning</h3>
+                    <p>Detta intygar att</p>
+                    <h3 id="studentName">Du</h3>
+                    <p>har framgångsrikt genomfört denna simulering och uppvisat förståelse för vad det innebär att vetenskapligt bevisa att:</p>
+                    <ul>
+                        <li>Fotosyntesen producerar syre och socker</li>
+                        <li>Cellandningen förbrukar syre och producerar koldioxid</li>
+                    </ul>
+                    <p>Framför allt har du visat förståelse för den vetenskapliga metodiken, inklusive:</p>
+                    <ul>
+                        <li>Skillnaden mellan observation, identifikation och teoretisk förklaring</li>
+                        <li>Användning av specifika tester för att identifiera ämnen</li>
+                        <li>Betydelsen av kontrollexperiment</li>
+                        <li>Uteslutande av alternativa förklaringar</li>
+                        <li>Kritisk analys av experimentella data</li>
+                    </ul>
+                    <p>Datum: <span id="certDate"></span></p>
+                </div>
+            </div>
+
+            <div class="experiment-nav">
+                <button id="prevBtnFinal" class="btn-prev">Föregående</button>
+                <button id="checkAnswers" class="btn-next">Kontrollera svar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Globala variabler för att hålla koll på svar och framsteg
+        let currentSection = {
+            "experiment1": 1,
+            "experiment2": 1,
+            "experiment3": 1,
+            "finalTest": 1
+        };
+        
+        let currentExperiment = "experiment1";
+        let correctAnswers = 0;
+        let totalQuestions = 17; // Totalt antal frågor i alla experiment
+        
+        // Rätta svar för alla frågor
+        const answers = {
+            // Experiment 1
+            "1": ["O2"],
+            "2": ["elodea", "testtubes", "light", "matches", "nahco3", "funnel"],
+            "3": ["1", "2", "3", "4", "5"],
+            "4": ["glowing"],
+            "5": ["specific", "control"],
+            
+            // Experiment 2
+            "2-1": ["o2consume", "co2produce"],
+            "2-2": ["peas", "testtubes", "lime", "syringe", "cotton"],
+            "2-3": ["1", "2", "3", "4"],
+            "2-4": ["lime"],
+            "2-5": ["volume", "glowing"],
+            "2-6": ["control"],
+            
+            // Experiment 3
+            "3-1": ["starch", "sugar"],
+            "3-2": ["iodine"],
+            "3-3": ["1", "2", "3", "4", "5", "6"],
+            "3-4": ["starchlight"],
+            "3-5": ["fehling"],
+            "3-6": ["control"],
+            
+            // Final test
+            "final1": ["specific"],
+            "final2": ["o2co2"],
+            "final3": ["isolate"],
+            "final4": ["expensive"],
+            "final5": ["oxygen"]
+        };
+        
+        // Valda svar
+        let selectedAnswers = {
+            // Experiment 1
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            
+            // Experiment 2
+            "2-1": [],
+            "2-2": [],
+            "2-3": [],
+            "2-4": [],
+            "2-5": [],
+            "2-6": [],
+            
+            // Experiment 3
+            "3-1": [],
+            "3-2": [],
+            "3-3": [],
+            "3-4": [],
+            "3-5": [],
+            "3-6": [],
+            
+            // Final test
+            "final1": [],
+            "final2": [],
+            "final3": [],
+            "final4": [],
+            "final5": []
+        };
+
+        // Initialisera drag-and-drop funktionalitet
+        function initDragAndDrop() {
+            const draggables = document.querySelectorAll('.drag-item');
+            const dropZones = document.querySelectorAll('.drop-zone');
+            
+            draggables.forEach(draggable => {
+                draggable.addEventListener('dragstart', () => {
+                    draggable.classList.add('dragging');
+                });
+                
+                draggable.addEventListener('dragend', () => {
+                    draggable.classList.remove('dragging');
+                });
+            });
+            
+            dropZones.forEach(dropZone => {
+                dropZone.addEventListener('dragover', e => {
+                    e.preventDefault();
+                    dropZone.classList.add('hover');
+                });
+                
+                dropZone.addEventListener('dragleave', () => {
+                    dropZone.classList.remove('hover');
+                });
+                
+                dropZone.addEventListener('drop', e => {
+                    e.preventDefault();
+                    dropZone.classList.remove('hover');
+                    const dragging = document.querySelector('.dragging');
+                    if (dragging) {
+                        dropZone.appendChild(dragging);
+                        // Uppdatera svaret baserat på vilken dropzone det är
+                        if (dropZone.id === 'experiment-dropzone') {
+                            updateDragAnswer('3');
+                        } else if (dropZone.id === 'experiment2-dropzone') {
+                            updateDragAnswer('2-3');
+                        } else if (dropZone.id === 'experiment3-dropzone') {
+                            updateDragAnswer('3-3');
+                        }
+                    }
+                });
+            });
+        }
+        
+        function updateDragAnswer(questionId) {
+            const dropZoneId = questionId === '3' ? 'experiment-dropzone' : 
+                              (questionId === '2-3' ? 'experiment2-dropzone' : 'experiment3-dropzone');
+            const dropZone = document.getElementById(dropZoneId);
+            const steps = Array.from(dropZone.querySelectorAll('.drag-item'));
+            selectedAnswers[questionId] = steps.map(step => step.dataset.step);
+        }
+
+        // Funktion för att kontrollera svar
+        function checkAnswer(questionId, prefix = '') {
+            const correctAnswer = answers[questionId];
+            const selectedAnswer = selectedAnswers[questionId];
+            
+            let isCorrect = true;
+            
+            // Om vi har flera rätta svar (checkbox eller flerval)
+            if (Array.isArray(correctAnswer) && Array.isArray(selectedAnswer)) {
+                // Kontrollera om alla rätta svar finns med och inga felaktiga
+                if (correctAnswer.length === selectedAnswer.length) {
+                    for (let answer of correctAnswer) {
+                        if (!selectedAnswer.includes(answer)) {
+                            isCorrect = false;
+                            break;
+                        }
+                    }
+                } else {
+                    isCorrect = false;
+                }
+            } 
+            // Om det är ett drag-and-drop test
+            else if (questionId === '3' || questionId === '2-3' || questionId === '3-3') {
+                // Kontrollera om stegen är i rätt ordning
+                for (let i = 0; i < correctAnswer.length; i++) {
+                    if (i >= selectedAnswer.length || correctAnswer[i] !== selectedAnswer[i]) {
+                        isCorrect = false;
+                        break;
+                    }
+                }
+            }
+            // För enstaka svar
+            else {
+                isCorrect = selectedAnswer.includes(correctAnswer[0]);
+            }
+            
+            // Visa feedback
+            const feedbackElement = document.getElementById(`feedback${prefix}${questionId}`);
+            if (feedbackElement) {
+                feedbackElement.classList.remove('correct', 'incorrect');
+                feedbackElement.classList.add(isCorrect ? 'correct' : 'incorrect');
+                
+                if (isCorrect) {
+                    feedbackElement.textContent = "Rätt! Din analys och förståelse är korrekt.";
+                    feedbackElement.style.display = 'block';
+                    correctAnswers++;
+                } else {
+                    feedbackElement.textContent = "Tänk igenom din analys igen. Överväg om du har tagit hänsyn till alla viktiga faktorer för ett stringent vetenskapligt bevis.";
+                    feedbackElement.style.display = 'block';
+                }
+            }
+            
+            return isCorrect;
+        }
+
+        // Uppdatera selectedAnswers när en användare klickar på en knapp
+        document.querySelectorAll('.btn-option').forEach(button => {
+            button.addEventListener('click', () => {
+                const value = button.getAttribute('data-value');
+                const questionContainer = button.closest('.options-container');
+                let questionId = null;
+                
+                // Hitta vilket experiment och fråga
+                const parentElement = questionContainer.closest('[id^="experiment"], [id="finalTest"]');
+                if (parentElement) {
+                    if (parentElement.id === 'finalTest') {
+                        // För sluttestet
+                        const step = questionContainer.closest('.step');
+                        if (step) {
+                            const steps = Array.from(document.querySelectorAll('#finalTest .step'));
+                            const index = steps.indexOf(step);
+                            questionId = `final${index + 1}`;
+                        }
+                    } else {
+                        // För experiment
+                        const sectionElement = questionContainer.closest('[id^="section"]');
+                        if (sectionElement) {
+                            questionId = sectionElement.id.replace('section', '');
+                        } else {
+                            // Första frågan i experimentet
+                            if (parentElement.id === 'experiment1') questionId = '1';
+                            else if (parentElement.id === 'experiment2') questionId = '2-1';
+                            else if (parentElement.id === 'experiment3') questionId = '3-1';
+                        }
+                    }
+                }
+                
+                if (questionId) {
+                    // Ensure selectedAnswers[questionId] exists
+                    if (!selectedAnswers[questionId]) {
+                        selectedAnswers[questionId] = [];
+                    }
+                    
+                    // Multi-select för vissa frågor
+                    if (questionId === '2-1' || questionId === '3-1' || questionId === '5' || 
+                        questionId === '2-5' || questionId.startsWith('final')) {
+                        
+                        if (button.classList.contains('selected')) {
+                            button.classList.remove('selected');
+                            selectedAnswers[questionId] = selectedAnswers[questionId].filter(item => item !== value);
+                        } else {
+                            button.classList.add('selected');
+                            if (!selectedAnswers[questionId].includes(value)) {
+                                selectedAnswers[questionId].push(value);
+                            }
+                        }
+                    } 
+                    // Enkla frågor (bara ett svar)
+                    else {
+                        questionContainer.querySelectorAll('.btn-option').forEach(btn => {
+                            btn.classList.remove('selected');
+                        });
+                        button.classList.add('selected');
+                        selectedAnswers[questionId] = [value];
+                    }
+                } else {
+                    console.error("Kunde inte hitta fråge-ID för knappen:", button);
+                }
+            });
+        });
+
+        // Få fråge-ID baserat på container
+        function getQuestionId(container) {
+            const parentStep = container.closest('.step');
+            if (parentStep) {
+                if (currentExperiment === 'finalTest') {
+                    return `final${Array.from(parentStep.parentNode.querySelectorAll('.step')).indexOf(parentStep) + 1}`;
+                }
+            }
+            
+            // Experiment 1
+            if (container.closest('#experiment1')) {
+                if (container.closest('#section1-2')) return '2';
+                if (container.closest('#section1-3')) return '3';
+                if (container.closest('#section1-4')) return '4';
+                if (container.closest('#section1-5')) return '5';
+                return '1';
+            } 
+            // Experiment 2
+            else if (container.closest('#experiment2')) {
+                if (container.closest('#section2-2')) return '2-2';
+                if (container.closest('#section2-3')) return '2-3';
+                if (container.closest('#section2-4')) return '2-4';
+                if (container.closest('#section2-5')) return '2-5';
+                if (container.closest('#section2-6')) return '2-6';
+                return '2-1';
+            } 
+            // Experiment 3
+            else if (container.closest('#experiment3')) {
+                if (container.closest('#section3-2')) return '3-2';
+                if (container.closest('#section3-3')) return '3-3';
+                if (container.closest('#section3-4')) return '3-4';
+                if (container.closest('#section3-5')) return '3-5';
+                if (container.closest('#section3-6')) return '3-6';
+                return '3-1';
+            }
+            
+            return null;
+        }
+
+        // Lägg till event listeners för lab-items (utrustning)
+        document.querySelectorAll('.lab-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const value = item.getAttribute('data-value');
+                const questionContainer = item.closest('.lab-equipment');
+                let questionId = null;
+                
+                // Hitta vilket experiment och fråga
+                const sectionElement = questionContainer.closest('[id^="section"]');
+                if (sectionElement) {
+                    questionId = sectionElement.id.replace('section', '');
+                } else {
+                    const experimentElement = questionContainer.closest('[id^="experiment"]');
+                    if (experimentElement) {
+                        if (experimentElement.id === 'experiment1') questionId = '2';
+                        else if (experimentElement.id === 'experiment2') questionId = '2-2';
+                        else if (experimentElement.id === 'experiment3') questionId = '3-2';
+                    }
+                }
+                
+                if (questionId) {
+                    // Ensure selectedAnswers[questionId] exists
+                    if (!selectedAnswers[questionId]) {
+                        selectedAnswers[questionId] = [];
+                    }
+                    
+                    if (item.classList.contains('selected')) {
+                        item.classList.remove('selected');
+                        selectedAnswers[questionId] = selectedAnswers[questionId].filter(i => i !== value);
+                    } else {
+                        item.classList.add('selected');
+                        if (!selectedAnswers[questionId].includes(value)) {
+                            selectedAnswers[questionId].push(value);
+                        }
+                    }
+                } else {
+                    console.error("Kunde inte hitta fråge-ID för lab-item:", item);
+                }
+            });
+        });
+
+        // Navigera till nästa sektion i experimentet
+        function nextSection(experimentId) {
+            const currentSectionId = `section${experimentId}-${currentSection[experimentId]}`;
+            const nextSectionId = `section${experimentId}-${currentSection[experimentId] + 1}`;
+            const currentSectionElement = document.getElementById(currentSectionId);
+            const nextSectionElement = document.getElementById(nextSectionId);
+            
+            if (nextSectionElement) {
+                // Visa nästa sektion
+                nextSectionElement.classList.remove('hidden');
+                currentSection[experimentId]++;
+                
+                // Uppdatera knappar
+                const prevBtn = document.getElementById(`prevBtn${experimentId.replace('experiment', '')}`);
+                const nextBtn = document.getElementById(`nextBtn${experimentId.replace('experiment', '')}`);
+                
+                if (prevBtn) prevBtn.disabled = false;
+                
+                // Visa resultat om det är sista sektionen
+                if (experimentId === 'experiment1' && currentSection[experimentId] === 5) {
+                    document.getElementById('experimentResult1').style.display = 'block';
+                } else if (experimentId === 'experiment2' && currentSection[experimentId] === 6) {
+                    document.getElementById('experimentResult2').style.display = 'block';
+                } else if (experimentId === 'experiment3' && currentSection[experimentId] === 6) {
+                    document.getElementById('experimentResult3').style.display = 'block';
+                }
+            } else {
+                // Om vi är klara med det här experimentet, gå till nästa
+                if (experimentId === 'experiment1') {
+                    switchExperiment('experiment2');
+                } else if (experimentId === 'experiment2') {
+                    switchExperiment('experiment3');
+                } else if (experimentId === 'experiment3') {
+                    switchExperiment('finalTest');
+                }
+            }
+            
+            // Uppdatera progress bar
+            updateProgress();
+        }
+
+        // Navigera till föregående sektion i experimentet
+        function prevSection(experimentId) {
+            if (currentSection[experimentId] > 1) {
+                const currentSectionId = `section${experimentId}-${currentSection[experimentId]}`;
+                const currentSectionElement = document.getElementById(currentSectionId);
+                
+                if (currentSectionElement) {
+                    currentSectionElement.classList.add('hidden');
+                }
+                
+                currentSection[experimentId]--;
+                
+                // Uppdatera knappar
+                const prevBtn = document.getElementById(`prevBtn${experimentId.replace('experiment', '')}`);
+                if (prevBtn && currentSection[experimentId] === 1) {
+                    prevBtn.disabled = true;
+                }
+            } else {
+                // Om vi är på första sektionen av ett experiment och går tillbaka
+                if (experimentId === 'experiment2') {
+                    switchExperiment('experiment1');
+                } else if (experimentId === 'experiment3') {
+                    switchExperiment('experiment2');
+                } else if (experimentId === 'finalTest') {
+                    switchExperiment('experiment3');
+                }
+            }
+            
+            // Uppdatera progress bar
+            updateProgress();
+        }
+
+        // Byt mellan olika experiment
+        function switchExperiment(newExperiment) {
+            // Dölj aktuellt experiment
+            document.getElementById(currentExperiment).classList.remove('active');
+            
+            // Visa nytt experiment
+            document.getElementById(newExperiment).classList.add('active');
+            
+            // Uppdatera variabel
+            currentExperiment = newExperiment;
+            
+            // Uppdatera progress bar
+            updateProgress();
+        }
+
+        // Uppdatera progressbar
+        function updateProgress() {
+            const totalSteps = 17; // Totala antal steg i alla experiment
+            let completedSteps = 0;
+            
+            // Räkna slutförda steg
+            if (currentExperiment === 'experiment1') {
+                completedSteps = currentSection['experiment1'] - 1;
+            } else if (currentExperiment === 'experiment2') {
+                completedSteps = 5 + (currentSection['experiment2'] - 1);
+            } else if (currentExperiment === 'experiment3') {
+                completedSteps = 11 + (currentSection['experiment3'] - 1);
+            } else if (currentExperiment === 'finalTest') {
+                completedSteps = 17;
+            }
+            
+            const progressPercentage = Math.round((completedSteps / totalSteps) * 100);
+            document.getElementById('progressBar').style.width = `${progressPercentage}%`;
+            document.getElementById('progressBar').textContent = `${progressPercentage}%`;
+        }
+
+        // Kontrollera alla svar i sluttestet
+        function checkAllAnswers() {
+            let allCorrect = true;
+            
+            for (let i = 1; i <= 5; i++) {
+                const isCorrect = checkAnswer(`final${i}`);
+                if (!isCorrect) allCorrect = false;
+            }
+            
+            if (allCorrect) {
+                document.getElementById('certificateSection').classList.remove('hidden');
+                
+                // Sätt dagens datum på certifikatet
+                const today = new Date();
+                const options = { year: 'numeric', month: 'long', day: 'numeric' };
+                document.getElementById('certDate').textContent = today.toLocaleDateString('sv-SE', options);
+                
+                document.getElementById('checkAnswers').textContent = "Grattis! Du har klarat testet!";
+                document.getElementById('checkAnswers').disabled = true;
+            }
+        }
+
+        // Initiera knappar och event listeners när sidan laddas
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initiera drag and drop
+            initDragAndDrop();
+            
+            // Hantera textinmatning
+            document.querySelectorAll('textarea').forEach(textarea => {
+                textarea.addEventListener('input', function() {
+                    const questionContainer = textarea.closest('[id^="section"]');
+                    if (questionContainer) {
+                        const questionId = questionContainer.id.replace('section', '');
+                        selectedAnswers[questionId] = [textarea.value];
+                    } else {
+                        // För sluttestet
+                        const questionId = textarea.id.replace('-reasoning', '')
+                                                   .replace('-variables', '')
+                                                   .replace('-explanation', '')
+                                                   .replace('-analysis', '')
+                                                   .replace('-critique', '')
+                                                   .replace('-calculation', '');
+                        selectedAnswers[questionId] = [textarea.value];
+                    }
+                });
+            });
+            
+            // Hantera select element
+            document.querySelectorAll('select').forEach(select => {
+                select.addEventListener('change', function() {
+                    const id = select.id.split('-');
+                    const variable = id[0];
+                    const type = id[1];
+                    
+                    if (!selectedAnswers[`final3-${type}`]) {
+                        selectedAnswers[`final3-${type}`] = {};
+                    }
+                    
+                    selectedAnswers[`final3-${type}`][variable] = select.value;
+                });
+            });
+            
+            // Event listeners for all submit buttons
+            document.getElementById('nextBtn1').addEventListener('click', function() {
+                // Kontrollera aktuell fråga innan vi går vidare
+                const questionId = currentSection['experiment1'].toString();
+                
+                if (questionId === '1') {
+                    if (selectedAnswers['1'] && selectedAnswers['1'].length > 0) {
+                        const isCorrect = checkAnswer('1');
+                        if (isCorrect) {
+                            document.getElementById('section1-2').classList.remove('hidden');
+                            currentSection['experiment1']++;
+                            document.getElementById('prevBtn1').disabled = false;
+                        }
+                    } else {
+                        alert("Du måste välja ett svar innan du kan gå vidare.");
+                    }
+                } else {
+                    nextSection('experiment1');
+                }
+            });
+            
+            document.getElementById('nextBtn2').addEventListener('click', function() {
+                nextSection('experiment2');
+            });
+            
+            document.getElementById('nextBtn3').addEventListener('click', function() {
+                nextSection('experiment3');
+            });
+            
+            // Prev-knappar
+            document.getElementById('prevBtn1').addEventListener('click', function() {
+                prevSection('experiment1');
+            });
+            
+            document.getElementById('prevBtn2').addEventListener('click', function() {
+                prevSection('experiment2');
+            });
+            
+            document.getElementById('prevBtn3').addEventListener('click', function() {
+                prevSection('experiment3');
+            });
+            
+            document.getElementById('prevBtnFinal').addEventListener('click', function() {
+                prevSection('finalTest');
+            });
+            
+        // Fix for the checkAnswers function
+        document.getElementById('checkAnswers').addEventListener('click', function() {
+            try {
+                // Ensure all selectedAnswers are initialized
+                if (!selectedAnswers.final1) selectedAnswers.final1 = [];
+                if (!selectedAnswers.final2) selectedAnswers.final2 = [];
+                if (!selectedAnswers.final3) selectedAnswers.final3 = [];
+                if (!selectedAnswers.final4) selectedAnswers.final4 = [];
+                if (!selectedAnswers.final5) selectedAnswers.final5 = [];
+                
+                // Get answers from option buttons
+                document.querySelectorAll('#finalTest .btn-option.selected').forEach(button => {
+                    const value = button.getAttribute('data-value');
+                    const container = button.closest('.options-container');
+                    const questionContainer = container.closest('.step');
+                    const questionIndex = Array.from(document.querySelectorAll('#finalTest .step')).indexOf(questionContainer) + 1;
+                    const questionId = `final${questionIndex}`;
+                    
+                    if (!selectedAnswers[questionId].includes(value)) {
+                        selectedAnswers[questionId].push(value);
+                    }
+                });
+                
+                // Get answers from textareas
+                document.querySelectorAll('#finalTest textarea').forEach(textarea => {
+                    const id = textarea.id;
+                    if (id && id.startsWith('final')) {
+                        const questionId = id.split('-')[0];
+                        selectedAnswers[questionId] = [textarea.value];
+                    }
+                });
+                
+                // Check all answers
+                let allCorrect = true;
+                let correctCount = 0;
+                
+                for (let i = 1; i <= 5; i++) {
+                    const questionId = `final${i}`;
+                    const isCorrect = checkAnswer(questionId);
+                    if (isCorrect) {
+                        correctCount++;
+                    } else {
+                        allCorrect = false;
+                    }
+                }
+                
+                // Show certificate if enough correct answers
+                if (correctCount >= 3) {
+                    document.getElementById('certificateSection').classList.remove('hidden');
+                    
+                    // Set today's date
+                    const today = new Date();
+                    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+                    document.getElementById('certDate').textContent = today.toLocaleDateString('sv-SE', options);
+                    
+                    document.getElementById('checkAnswers').textContent = "Grattis! Du har klarat testet!";
+                    document.getElementById('checkAnswers').disabled = true;
+                } else {
+                    alert("Du behöver få minst 3 av 5 rätt på sluttestet för att få ditt certifikat. Försök igen!");
+                }
+            } catch (error) {
+                console.error("Error in checkAnswers:", error);
+                alert("Ett fel uppstod vid kontroll av svar. Försök igen.");
+            }
+        });
+            
+            // Initiera progressbar
+            updateProgress();
+        });
+    </script>
+</body>
+</html>
